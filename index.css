@@ -1,0 +1,81 @@
+h1{
+  text-align: center;
+  color: black;
+  font-family: "Allerta Stencil";
+  font-size: 50px;
+  text-shadow: 2px 2px red;
+          -webkit-animation: color-change 1s infinite;
+        -moz-animation: color-change 1s infinite;
+        -o-animation: color-change 1s infinite;
+        -ms-animation: color-change 1s infinite;
+        animation: color-change 1s infinite;
+    }
+
+    @-webkit-keyframes color-change {
+        0% { color: red; }
+        50% { color: black; }
+        100% { color: red; }
+    }
+    @-moz-keyframes color-change {
+        0% { color: red; }
+        50% { color: black; }
+        100% { color: red; }
+    }
+    @-ms-keyframes color-change {
+        0% { color: red; }
+        50% { color: black; }
+        100% { color: red; }
+    }
+    @-o-keyframes color-change {
+        0% { color: red; }
+        50% { color: black; }
+        100% { color: red; }
+    }
+    @keyframes color-change {
+        0% { color: red; }
+        50% { color: black; }
+        100% { color: red; }
+    
+}
+
+
+html{
+  background-color: black;  
+}
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+html {
+  height: 100%;
+  
+}
+
+html {
+  -webkit-animation: background 5s cubic-bezier(1,0,0,1) infinite;
+  animation: background 5s cubic-bezier(1,0,0,1) infinite;  
+}
+
+
+@-webkit-keyframes background {
+  0% { background-color: rgb(66, 5, 5); }
+  33% { background-color: rgb(21, 61, 6); }  
+  67% { background-color: rgb(94, 55, 4); }
+  100% { background-color: rgb(194, 7, 7); }
+}
+
+@keyframes background {
+  0% { background-color: rgb(66, 5, 5); }
+  33% { background-color: rgb(21, 61, 6); }  
+  67% { background-color: rgb(94, 55, 4); }
+  100% { background-color: rgb(194, 7, 7); }
+}
+#borderimg1 { 
+    border: 10px solid transparent;
+    padding: 15px;
+    -webkit-border-image: url(zomb.png) 40 round; 
+    -o-border-image: url(zomb.png) 40 round; 
+    border-image: url(zomb.png) 40 round;
+}
